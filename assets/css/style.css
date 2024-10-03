@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header-one{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.header-one img{
+    width: 100px;
+    margin-left: -450px;
+}
+.header-one h1{
+    font-size: 45px;
+    color: rgb(75, 74, 74);
+    margin-left: 500px;
+}
+.header-two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header-two ul{
+    width: 90%;
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.header-two ul li a{
+    color: rgb(28, 77, 110);
+}
+.header-three{
+    width: 95%;
+    text-align: center;
+    padding: 35px;
+    font-size: 40px;
+    color: rgb(66, 66, 66);
+    background-color: rgb(28, 77, 110); 
+    background-image: linear-gradient(to right, rgb(104, 179, 230) , rgb(228, 237, 242));
+}
+hr{
+    margin-top: 25px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+.row{
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+
+}
+.card1{
+    width: 350px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 22px;
+    background-color: rgb(232, 194, 241);
+}
+.card1>h1 {
+    text-align:center ;
+}
+.card1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
